@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ImageCropper</string>
+    <string name="press_to_open_gallery">Press to open Gallery</string>
+    <string name="place_for_cropped_image">place for cropped image</string>
+    <string name="save_button">save Button</string>
+    <string name="cancel">CANCEL</string>
+    <string name="yes">YES</string>
+    <string name="save_the_image">Save the image?</string>
+</resources>
