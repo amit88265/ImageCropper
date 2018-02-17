@@ -122,6 +122,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void startCropImageActivity(Uri imageUri) {
         CropImage.activity(imageUri)
+                .setFixAspectRatio(true)
+                .setAutoZoomEnabled(false)
+                .setMinCropWindowSize(400,400)
                 .start(this);
     }
 
